@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 200px 550px;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+.conatiner{
+    display: flex;
+    flex-direction: row;
+}
+
+.main2{
+    background-image: url(Red.jpg);
+    width: 120%;
+}
+#login-username, #login-password{
+    font-size: 15px;
+    padding: 10px;
+}
+#app {
+    text-align: center;
+    margin-top: 0rem;
+}
+
+#auth-container {
+    
+
+}
+.div1{
+    line-height: 3;
+}
+#login-form, #profile {
+    margin-left: 29rem;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 0px;
+    border: 1px solid #ccc;
+    width: 35%;
+
+
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    width: 50%;
+    background-color: rgb(96, 96, 226);
+    color: #f0f0f0;
+    border-radius: 12px;
+}
+
+
+@media screen and (max-width: 600px){
+    *{
+        margin: 0rem;
+        padding: 0rem;
+    }
+    body{
+        background-image: url(Red.jpg);
+        height: ;
+    }
+    div#login-form {
+        width: 223px;
+    margin-left: -382px;
+    margin-top: -131px;
+    }
+    #auth-container{
+
+    }
+    .main2{
+        
+        width: 120%;
+    }
+}
